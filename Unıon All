@@ -1,0 +1,3 @@
+Select variable From asd.test
+UNION ALL
+SELECT Number FROM sys.deneme1 ;
