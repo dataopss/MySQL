@@ -1,0 +1,2 @@
+SELECT * FROM test 
+WHERE variable = ANY (SELECT variable FROM asd.test WHERE variable >2 );
