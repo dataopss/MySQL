@@ -1,0 +1,6 @@
+SELECT  variable , set_time ,
+CASE 
+WHEN  variable > 1  THEN 'varıable greater than 2' 
+WHEN variable = 1 THEN 'varıable equal 2' 
+ELSE   'varıable low 2 ' 
+END  AS  variabletext  FROM asd.test  ;
