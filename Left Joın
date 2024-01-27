@@ -1,0 +1,2 @@
+SELECT * FROM asd.test 
+LEFT JOIN sys.deneme1 ON test.variable = deneme1.Number ; 
