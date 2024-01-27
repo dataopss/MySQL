@@ -1,0 +1,4 @@
+SELECT deneme1.Number, test.variable , FROM asd.test 
+RIGHT JOIN sys.deneme1 ON test.variable = deneme1.Number 
+GROUP BY Number
+; 
